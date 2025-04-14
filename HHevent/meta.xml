@@ -1,0 +1,17 @@
+<meta>
+    <info author="ChatGPT" version="1.1" name="Event Manager" type="script" />
+    <description>Advanced event GUI system for managing player events and warps.</description>
+
+    <script src="server.lua" type="server" />
+    <script src="client.lua" type="client" />
+
+    <!-- Events -->
+    <event name="createEvent" />
+    <event name="endEventAction" />
+    <event name="playerJoinEvent" />
+    <event name="warpSelectedPlayerToEvent" />
+    <event name="warpAllPlayersToEvent" />
+    <event name="onEventStatusChanged" />
+    <event name="updateEventPlayers" />
+    <event name="requestEventPlayers" />
+</meta>
